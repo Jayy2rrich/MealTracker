@@ -13,6 +13,8 @@
 		DC70B997296DE06200012F2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC70B995296DE06200012F2E /* Main.storyboard */; };
 		DC70B999296DE06400012F2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC70B998296DE06400012F2E /* Assets.xcassets */; };
 		DC70B99C296DE06400012F2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC70B99A296DE06400012F2E /* LaunchScreen.storyboard */; };
+		DC70B9A4296DE31100012F2E /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC70B9A3296DE31100012F2E /* Food.swift */; };
+		DC70B9A6296DE5A600012F2E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC70B9A5296DE5A600012F2E /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DC70B998296DE06400012F2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC70B99B296DE06400012F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC70B99D296DE06400012F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC70B9A3296DE31100012F2E /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		DC70B9A5296DE5A600012F2E /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				DC70B98F296DE06200012F2E /* AppDelegate.swift */,
 				DC70B991296DE06200012F2E /* SceneDelegate.swift */,
 				DC70B993296DE06200012F2E /* ViewController.swift */,
+				DC70B9A3296DE31100012F2E /* Food.swift */,
+				DC70B9A5296DE5A600012F2E /* TableViewController.swift */,
 				DC70B995296DE06200012F2E /* Main.storyboard */,
 				DC70B998296DE06400012F2E /* Assets.xcassets */,
 				DC70B99A296DE06400012F2E /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC70B994296DE06200012F2E /* ViewController.swift in Sources */,
+				DC70B9A4296DE31100012F2E /* Food.swift in Sources */,
 				DC70B990296DE06200012F2E /* AppDelegate.swift in Sources */,
+				DC70B9A6296DE5A600012F2E /* TableViewController.swift in Sources */,
 				DC70B992296DE06200012F2E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
